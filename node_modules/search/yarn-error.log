@@ -1,0 +1,52 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\pranjal.sarkar\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js start
+
+PATH: 
+  C:\Users\PRANJA~1.SAR\AppData\Local\Temp\yarn--1626871336719-0.39357506874590853;D:\Workplace\Foodie-mfe\node_modules\.bin;C:\Users\pranjal.sarkar\AppData\Local\Yarn\Data\link\node_modules\.bin;D:\Workplace\Foodie-mfe\node_modules\.bin;C:\Users\pranjal.sarkar\AppData\Local\Yarn\bin;C:\Program Files\libexec\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\;C:\ProgramData\chocolatey\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\dotnet\;C:\Users\pranjal.sarkar\AppData\Local\Microsoft\WindowsApps;C:\Users\pranjal.sarkar\AppData\Roaming\npm;C:\Users\pranjal.sarkar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\pranjal.sarkar\.dotnet\tools;C:\Users\pranjal.sarkar\.dotnet\tools
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: D:\Workplace\Foodie-mfe\packages\package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at C:\Users\pranjal.sarkar\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\pranjal.sarkar\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\pranjal.sarkar\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "search",
+    "version": "0.0.0",
+    "private": true,
+    "dependencies": {
+      "@babel/core": "^7.8.6",
+      "@babel/preset-react": "^7.8.3",
+      "babel-loader": "^8.0.6",
+      "html-webpack-plugin": "git://github.com/ScriptedAlchemy/html-webpack-plugin#master",
+      "react": "^16.13.0",
+      "react-dom": "^16.13.0",
+      "serve": "^11.3.0",
+      "single-spa-react": "^2.11.1",
+      "webpack": "git://github.com/webpack/webpack.git#dev-1",
+      "webpack-cli": "^3.3.11"
+    },
+    "scripts": {
+      "start": "webpack --watch",
+      "build": "webpack --mode production",
+      "serve": "serve dist -p 3007"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
